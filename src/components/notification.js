@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import * as S from './layout';
+import * as S from '../components/layout2';
 
 class NotificationsForm extends PureComponent {
   constructor(props) {
