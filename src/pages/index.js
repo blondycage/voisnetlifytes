@@ -9,16 +9,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import NotificationsForm from '../components/notification';
 const IndexPage = () => {
   
   return (
     <Layout>
-      
+      <NotificationsForm/>
       <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <h1>Hi people</h1>
-      <h1>Hi people</h1>
+      <p>this is vois home page.</p>
+      <p>we do awesome stuff</p>
+  
       
     </Layout>
   )

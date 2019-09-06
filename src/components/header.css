@@ -23,7 +23,7 @@
   .Nav {
     display: grid;
     grid-area: nav;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(7, auto);
     align-items: center;
     justify-items: center;
     ;
@@ -37,6 +37,7 @@
   }
   .Nav a:hover {
     transform: scale(1.1);
+    color: red;
   }
   .Nav button {
     padding: 10px;
