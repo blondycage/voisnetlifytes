@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./header.css";
 import { CSSTransition } from "react-transition-group";
 import Link from "gatsby-link"
-
+import NotificationsForm from '../components/notification';
 export default function Header() {
   const [isNavVisible, setNavVisibility] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -49,7 +49,7 @@ export default function Header() {
           
           <Link to="/blog">blog</Link>
           <Link to="/">home</Link>
-          
+          <NotificationsForm />
          
         </nav>
       </CSSTransition>

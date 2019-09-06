@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header  />
+      <Header></Header>
      
       <div
        
